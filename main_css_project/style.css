@@ -1,0 +1,204 @@
+@font-face {
+    font-family: roboto;
+    src: url(roboto_font/Roboto-Regular.ttf);
+}
+body{
+    background-color: whitesmoke;
+    font-family: roboto;
+}
+.hero{
+    background-color: #1F2937;
+    margin: 150px;
+    padding: 30px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav{
+    margin-right: 100px;
+    margin-top: 30px;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    padding: 15px;
+    margin-left: 100px;
+}
+.link{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 15px;
+  
+}
+.link:hover{
+    color: rgb(255, 230, 163);
+}
+/*hero content*/
+.hero_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px 100px;
+    padding: 30px;
+}
+.big{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.little{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.btn{
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid #3882F6;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #2c59a3;
+}
+.hero_content img{
+    width:300px;
+    height: 150px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+/*main content*/
+.info{
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 50px auto;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.img{
+    width: 200px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.images p{
+    font-size: 16px;
+    text-align: center;
+}
+/*quote section*/
+.quote{
+    background-color: #E5E7EB;
+    margin: 150px;
+    padding: 70px 190px;
+}
+.quote p{
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+}
+ #thor{
+    text-align: right;
+    font-weight: bolder;
+    font-size: 22px;
+    padding: 0 30px;
+}
+.sign_up{
+    background-color: #619af6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px 150px;
+    border-radius: 10px;
+    margin: 50px 300px;
+}
+h4{
+    color: white;
+}
+.sign_up p{
+    color:#E5E7EB;
+    font-size: 15px;
+}
+.sign_up .btn{
+    border: 1px solid white;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+/*footer*/
+#footer{
+    color:#F9FAF8;
+    text-align: center;
+}
+#icon{
+    color:#F9FAF8;
+    font-size: 18px;
+    padding: 7px;
+}
+/*media queries*/
+
+@media screen and (max-width: 1024px){
+    nav{
+        display:flex;
+        flex-direction:column;
+        justify-content: space-around;
+    }
+    .nav{
+        margin-right:0;
+        text-align: center;
+    }
+    .logo{
+        margin:20px auto;
+    }
+    .hero{
+        margin:20px;
+        padding: 10px;
+    }
+    .hero_content{
+        display:flex;
+        flex-direction:column;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px;
+        padding: 10px;
+    }
+    .btn{
+        margin: 20px auto;
+    }
+    .hero_content img{
+        width: 250px;
+        height: auto;
+        margin:10px auto;
+        border-radius: 50px;
+    }
+    .images{
+        display: flex;
+        flex-direction: column;
+        margin: 10px auto;
+        align-items: center;
+    }
+    .img{
+        margin: 10px auto;
+    }
+    .quote{
+        margin:10px;
+        padding: 20px;
+    }
+    .sign_up{
+        flex-direction: column;
+        margin: 20px 40px;
+        padding: 20px;
+    }
+    .sign_up .btn{
+        margin:20px auto;
+    }
+}
