@@ -8,13 +8,14 @@ body{
 }
 .hero{
     background-color: #1F2937;
-    margin: 150px;
+    margin: 70px 100px;
     padding: 30px;
 }
 nav{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: #1F2937;
 }
 .nav{
     margin-right: 100px;
@@ -143,6 +144,9 @@ h4{
     color:#F9FAF8;
     font-size: 18px;
     padding: 7px;
+}
+h2{
+    margin: 100px;
 }
 /*media queries*/
 
